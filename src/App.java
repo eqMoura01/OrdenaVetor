@@ -17,10 +17,10 @@ public class App {
         }
 
         // Segundo laco for para percorrer todas as posicoes do vetor
-        for (i = 0; i < 5; i++) {
+        for (i = 0; i < 3; i++) {
             // Terceiro laco for para percorrer as 3 primeiras posicoes do vetor. Nao ha
             // necessidade de verificar a ultima casa pois com certeza ela estara em ordem.
-            for (j = i + 1; j < 4; j++) {
+            for (j = i + 1; j <= 3; j++) {
                 if (vet[i] > vet[j]) {
                     aux = vet[i];
                     vet[i] = vet[j];
